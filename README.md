@@ -25,7 +25,7 @@ The dataset was randomly split into a training set and a testing set, following 
 - **30% Testing Data**
 
 ### Model Selection
-I evaluated a Linear Regression, Random Forest Classifier, and an SVM model to compare metrics. In the end the RandomForestClassifier performed the best:
+I evaluated a Linear Regression, Random Forest Classifier, and an SVM model to compare metrics (all with sklearn). In the end the RandomForestClassifier performed the best:
 ![Metrics for RFC](data/metricsRFC.png)
 ![Confusion Matrix for RFC](data/matrixsRFC.png)
 
